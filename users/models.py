@@ -20,3 +20,9 @@ class Users(models.Model):
     Password= models.CharField(max_length=10)
     Condition= models.CharField(max_length=50)
     rol= models.ForeignKey(Rol,on_delete=models.CASCADE)
+
+class category(models.Model):
+    id_category= models.CharField(max_length=255)
+    name= models.CharField(max_length=250)
+    description= models.CharField(max_length=500)
+    Condition= models.BooleanField(max_length=50)
