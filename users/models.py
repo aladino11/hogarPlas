@@ -2,7 +2,7 @@ from multiprocessing import Condition
 from django.db import models
 from django.forms import PasswordInput
 
-# Create your models here.
+# Create your models here jaime.
 class Rol(models.Model):
     name = models.CharField(max_length=250)
     description = models.CharField(max_length=500)
