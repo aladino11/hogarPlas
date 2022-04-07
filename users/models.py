@@ -11,7 +11,7 @@ class Rol(models.Model):
     description = models.CharField(max_length=500)
     Condition = models.BooleanField()
 
-
+#CLASES MODELO QUE REPRESENTA EL MAPEO CON LAS TABLAS DE LAS BD
 class Users(models.Model):
     rol_id= models.IntegerField()
     first_names= models.CharField(max_length=255, null=False, unique=True, verbose_name='Nombres')
