@@ -29,6 +29,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+# Aplicaciones predeterminadas o que se agregen para ser usadas
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -73,6 +74,7 @@ WSGI_APPLICATION = 'hogarPlas.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
+# CONFIGURACION Y CONCEXION CON LA BESES DE DATOS PG
 
 DATABASES = {
     'default': {
