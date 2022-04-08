@@ -1,4 +1,4 @@
-from msilib.schema import Class
+#from msilib.schema import Class
 from multiprocessing import Condition
 from tkinter import CASCADE, Entry
 from unicodedata import category
@@ -88,7 +88,4 @@ class Sale_detail(models.Model):
     price= models.DecimalField(max_digits=11, decimal_places=2)
     descuento= models.DecimalField(max_digits=11, decimal_places=2)
     Sale= models.ForeignKey(Sale, on_delete=models.CASCADE)
-    Article= models.ForeignKey(article, on_delete=models.CASCADE)
-
-
-    
+    Article= models.ForeignKey(article, on_delete=models.CASCADE)  

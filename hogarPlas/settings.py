@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'Inventario_Hogar_Plas', 
         'USER': 'postgres', 
-        'PASSWORD': 'PostgreSQL',
+        'PASSWORD': 'jaimeandres11',
         'HOST': 'localhost',
         'PORT': '5432'
     }
