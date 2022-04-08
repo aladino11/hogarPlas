@@ -11,6 +11,8 @@ class Migration(migrations.Migration):
     dependencies = [
     ]
 
+#Representacion de las modificaciones con respecto a los modelos anteriores
+
     operations = [
         migrations.CreateModel(
             name='article',
